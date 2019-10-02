@@ -1,0 +1,153 @@
+html,
+body {
+  font-family: "Monteserrat", Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.intro {
+  top: 0;
+  background: #49485a;
+  padding-top: 0vh;
+}
+.intro p {
+  color: #6c5b7b;
+
+  -webkit-animation: fadein 3s; 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a6a6c2;
+  height: 63px;
+  font-size: 50px;
+  text-decoration: unset;
+  -webkit-animation: fadein 2s; 
+}
+
+nav > a {
+  margin: 0 4%;
+}
+
+.work {
+  background-color: #49485a;
+
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: #c06c84;
+  font-weight: normal;
+  
+}
+
+
+.picture-holder{
+    width: 100vw;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #49485a
+}
+
+.picture{
+
+    width: 256px;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    height: 985px;
+  background-color: #49485a
+
+}
+
+.first-picture{
+    background-image: url('../image/Mobilesnap1.png');
+ height: 985px;
+ margin-top: 30px;
+
+ -webkit-animation: fadein 3s; 
+ background-size: contain;
+}
+
+.second-picture{
+    background-image: url('../image/Mobilesnap2.png');
+    background-size: contain;
+    margin-right: 62px;
+    margin-top: 40px;
+    
+  -webkit-animation: fadein 3s; 
+}
+
+.third-picture{
+    background-image: url('../image/Mobilesnap3.png');
+    background-size: contain;
+    height: 985px;
+    width: 720;
+    margin-left: 0px;
+    margin-top: 77px;
+
+  -webkit-animation: fadein 3s; 
+}
+
+.row > *{
+    width: 50%;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6c5b7b;
+    color: white;
+    text-align: center;
+    height: 65px;
+
+  -webkit-animation: fadein 3s; 
+  }
+
+footer {
+    padding: 20px;
+    background: #22313f;
+    color: #a6a6c2;
+    line-height: 40px;
+  }
+  
+  p > footer {
+    color: #a6a6c2;
+  }
+  
+  footer a {
+    color: #a6a6c2;
+  }
+  
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
