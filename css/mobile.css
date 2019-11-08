@@ -70,7 +70,7 @@ nav > a {
 }
 
 .first-picture{
-    background-image: url('../image/Mobilesnap1.png');
+    background-image: url('../image/chillnchange2.png');
  height: 985px;
  margin-top: 30px;
 
@@ -79,7 +79,7 @@ nav > a {
 }
 
 .second-picture{
-    background-image: url('../image/Mobilesnap2.png');
+    background-image: url('../image/faqsnap.png');
     background-size: contain;
     margin-right: 62px;
     margin-top: 40px;
@@ -88,7 +88,7 @@ nav > a {
 }
 
 .third-picture{
-    background-image: url('../image/Mobilesnap3.png');
+    background-image: url('../image/Mobilesnap1.png');
     background-size: contain;
     height: 985px;
     width: 720;
@@ -97,6 +97,8 @@ nav > a {
 
   -webkit-animation: fadein 3s; 
 }
+
+
 
 .row > *{
     width: 50%;
